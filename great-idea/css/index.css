@@ -64,3 +64,165 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+nav {
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+ nav a {
+	 color: gray;
+	 text-decoration: none;
+	 font-weight: bold;
+ } 
+
+.hero {
+	display: flex;
+	justify-content: space-around;
+	padding: 10%;
+}
+
+
+h2 {
+	display: flex;
+	font-size: 74px;
+	justify-content: space-around;
+}
+
+.button {
+	display: flex;
+	font-size: 20px;
+	background: white;
+	border: 2px solid black;
+	justify-content: space-around;
+	padding: 5%;
+}
+.button:hover {
+	background: rgb(15, 146, 185);
+}
+ .words-top {
+	 display: flex;
+ }
+
+.words-top article {
+	width: 50%;
+	font-size: 20px;
+}
+.middle-img {
+	width: 100%
+}
+.picture {
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+
+.words-bottom {
+	display: flex;
+	font-size: 18px;
+	
+	
+}
+
+
+.words-top article {
+	padding: 3% 0;
+
+}
+
+.words-bottom article {
+	width: 33%;
+	padding: 3% 0;
+}
+
+h6 {
+	text-align: center;
+}
+
+.site-container {
+	width: 800px;
+	margin: 0 auto;
+}
+hr {
+
+background-color: black;
+opcaity: 0.5;
+
+}
+
+.headerimage {
+	display: flex;
+	justify-content: center;
+	
+}
+
+.services-header-img {
+width: 100%;
+}
+
+h1 {
+	font-size: 25px;
+	padding-top: 2%;	
+}
+
+.services {
+	
+	padding-top: 1%;
+	font-size: 20px;
+}
+
+
+.rows-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 0 0 3% 0;
+}
+
+.boxes {
+	width: 46%;
+	background: #f4f3f4;
+	border: 1px solid black;
+	padding: 25px 50px 15px 15px;
+	font-weight: bold;
+	margin-top: 2%;
+}
+
+button {
+	background: white;
+	font-size: 12px;
+	border-radius: 8px;
+	margin-right: 90px;
+	margin-top: 6%;
+	padding: 2% 3% 2% 3%;
+}
+
+div p {
+	font-weight: bold;
+}
+
+ul {
+	list-style: square inside;
+	font-weight: bold;
+}
+
+ul {
+	margin-top: 15px;
+}
+
+.bottomservices {
+	display: flex;
+}
+
+.bottomleft, .bottomright {
+	width: 50%;
+}
+
+.copyright {
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	margin: 2% 0;
+}
